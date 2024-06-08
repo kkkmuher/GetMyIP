@@ -67,12 +67,11 @@
 
 <body>
     <main>
-        <script src="https://telegram.org/js/telegram-web-app.js"></script>
         <div style="position: fixed; top: 0; left: 50%; transform: translateX(-50%);">
             <h1 id="user-ip"></h1>
             <button style="display: block; margin: 0 auto;" onclick="copyToClipboard()">Copy IP</button>
         </div>
-        <script>
+        <!-- <script>
             // Function to get user IP address
             function getUserIP() {
                 fetch('https://api.ipify.org/?format=json')
@@ -98,7 +97,7 @@
             }
 
             // Call the function to get user IP
-            getUserIP();
+            getUserIP(); -->
         </script>
     </main>
     <div id="viewport"></div>
